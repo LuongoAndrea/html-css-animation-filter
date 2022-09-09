@@ -1,0 +1,36 @@
+/* es 1 */
+.ex-1-square{
+    transition: background-color 2s; 
+}
+.ex-1-square:hover{
+    background-color: red;
+}
+/* es 3 */
+.ex-3-square{
+    
+    transition: border-radius 2s;
+}
+.ex-3-square:hover{
+    border-radius: 100%;
+}
+/* es 4 */
+.ex-4-square{
+    animation-name: transparent-square;
+    animation-duration: 4s;
+}
+@keyframes transparent-square{
+    from {background-color: red;}
+  to {background-color: transparent;}
+}
+/* es 5 non finito */
+.ex-5-square{
+    transition: width 2s, height 2s;
+}
+.ex-5-square:hover{
+    width: 100px;
+    height: 100px;
+}
+/* es 6 */
+.ex-6-img:hover{
+
+}
